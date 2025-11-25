@@ -7,7 +7,7 @@ export default function Books({ books = [] }) {
 	return (
 		<div className={styles.booksContainer}>
 			<Head>
-				<title>Surya Narayana Chakka</title>
+				<title>Mohamed Abdul Kadar</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.booksContent}>
@@ -54,8 +54,8 @@ export async function getServerSideProps() {
 	try {
 		const books = [
 			{
-				title: "Smart ERP Solutions for Digital Commerce: AI and ML Strategies for Business Transformation ",
-				link: "https://amzn.in/d/1ybN1XE",
+				title: "From Data to Decisions: Navigating the AI and Machine Learning",
+				link: "https://www.amazon.com/dp/B0FKTCB9TS?ref=cm_sw_r_ffobk_cso_wa_mwn_dp_SE24G40ZJ1Y7CPAPFJPX",
 				image: "img/book.png",
 			},
 		];

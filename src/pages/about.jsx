@@ -7,7 +7,7 @@ export default function About({ aboutData = [], highlights = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Surya Narayana Chakka</title>
+				<title>Mohamed Abdul Kadar</title>
 				<meta name="author" content="Name" />
 			</Head>
 			<div className={styles.aboutContent}>
@@ -43,25 +43,23 @@ export default function About({ aboutData = [], highlights = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-  "I am Surya Narayana Chakka, a Senior SAP Solution Architect with over 20 years of global consulting experience in leading complex end-to-end SAP implementations, S/4HANA migration programs, system integration, and enterprise digital transformation. I specialize in SAP S/4HANA Sales & Distribution (SD/OTC), Supply Chain Management, Customer Service, Variant Configuration, and Logistics Execution, delivering scalable, enterprise-wide solutions across Manufacturing, Pharma, Consumer Goods, Automotive, Medical Devices, and Chemical industries.",
-  "With deep expertise in SAP ECC → S/4HANA transition strategies, business process harmonization, solution blueprinting, and cross-functional stakeholder collaboration, I help organizations modernize core business processes and achieve measurable operational efficiency. I have successfully led multiple global rollouts, migrations, upgrades, and support engagements across multi-country SAP landscapes.",
-  "I am known for bridging the gap between business and technology — working closely with business leaders, process owners, and technical teams to design SAP architectures that align with organizational goals, ensure compliance, reduce cost, and maximize long-term scalability. My leadership approach prioritizes clarity, governance, knowledge enablement, risk-controlled delivery, and high-performance team culture.",
-  "I am certified in SAP S/4HANA Sales, Order Fulfillment, and Central Finance, and I continue to stay aligned with evolving SAP innovations such as FIORI, SAP Activate methodology, Advanced ATP, BRF+, Event-Based Revenue Recognition, and next-generation integration architectures. I am passionate about helping enterprises accelerate transformation, enhance customer experience, and drive profitable business growth."
+  "I am Mohamed Abdul Kadar, a results-driven Technology Leader and Google Cloud Certified Professional Cloud Architect with 17+ years of experience delivering high-quality, scalable cloud-native solutions, robust API-driven microservices, and enterprise-grade test automation frameworks. I specialize in designing and implementing end-to-end CI/CD pipelines, automated testing strategies (web, mobile, API, and backend), and reliable deployment architectures using GCP, Kubernetes, Docker, Jenkins, and infrastructure-as-code. My strength lies in bridging engineering and quality — building resilient automation frameworks, enabling observability and testability, and mentoring teams to adopt best practices in software development, testing, and DevOps. I bring a pragmatic approach to quality engineering, a deep commitment to test coverage and performance, and a proven track record of improving release velocity while maintaining production stability."
 ];
 
 
 		const highlights = [
-  "20+ years of global experience leading enterprise SAP S/4HANA, ECC, and digital transformation programs across multi-industry environments.",
-  "Specialized expertise in SAP SD/OTC, Supply Chain, Logistics Execution, Customer Service, and Variant Configuration with deep process knowledge.",
-  "Proven track record in delivering multi-phase global rollouts, greenfield implementations, brownfield migrations, and complex integration architectures.",
-  "Strong leadership in SAP S/4HANA modernization initiatives including business process re-engineering, system harmonization, and data migration strategies.",
-  "Expert in solution blueprinting, requirement analysis, functional specification design, fit-gap analysis, and cross-functional stakeholder alignment.",
-  "Hands-on experience in leading SAP Activate methodology, Agile delivery governance, and best-practice implementation frameworks.",
-  "Experienced in collaborating with global business leaders, COE teams, offshore/onshore resources, and system integrators to ensure delivery excellence.",
-  "Known for bridging business and technology by translating strategic objectives into scalable, sustainable SAP solutions that drive measurable outcomes.",
-  "Consistent history of improving operational efficiency, reducing process cycle times, enabling compliance, and enhancing customer experience through system optimization.",
-  "Passionate about mentoring teams, enabling knowledge transfer, and cultivating high-performance delivery environments."
+  "Google Cloud Certified Professional Cloud Architect with 17+ years of experience in cloud engineering, automation, DevOps, and end-to-end software quality engineering.",
+  "Expert in designing and implementing scalable cloud-native solutions using GCP, Kubernetes, Docker, and microservices-based architectures.",
+  "Strong background in building robust automation frameworks for Web, Mobile, API, and E2E testing using Selenium, Appium, RestAssured, Karate, and Playwright.",
+  "Proficient in CI/CD pipeline design and automation using Jenkins, GitLab CI, GitHub Actions, Terraform, and Infrastructure-as-Code principles.",
+  "Proven ability to streamline release cycles by enhancing automation coverage, integrating shift-left testing, and improving test reliability and quality gates.",
+  "Hands-on experience with distributed systems, event-driven architecture, Kafka, Pub/Sub, Cloud Tasks, and asynchronous workflow orchestration.",
+  "Adept at implementing observability, logging, monitoring, and alerting using ELK Stack, Prometheus, Grafana, and Cloud Monitoring.",
+  "Experienced in Agile delivery, cross-functional team leadership, code reviews, and mentoring teams in quality, automation, and DevOps best practices.",
+  "Strong problem-solving mindset with a deep focus on reliability, scalability, performance, and production readiness of enterprise applications.",
+  "Recognized for driving engineering excellence, improving build stability, reducing defects, and enabling high-velocity, high-confidence deployments."
 ];
+
 
 
 		return {

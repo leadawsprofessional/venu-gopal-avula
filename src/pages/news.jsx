@@ -6,7 +6,7 @@ export default function News({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Surya Narayana Chakka</title>
+				<title>Mohamed Abdul Kadar</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.articleContent}>
@@ -48,23 +48,23 @@ export async function getServerSideProps() {
 	try {
 		const articles = [
 			{
-				title: "Surya Narayana Chakka presents his visionary book which examines AI and ML applications for ERP system transformation",
-				link: "https://techbullion.com/surya-narayana-chakka-presents-his-visionary-book-which-examines-ai-and-ml-applications-for-erp-system-transformation/",
+				title: "Mohamed Abdul Kadar Releases His Thought-Inducing Publication From Data to Decisions – Navigating the AI and Machine Learning Landscape",
+				link: "https://www.indiehackers.com/post/mohamed-abdul-kadar-releases-his-thought-inducing-publication-from-data-to-decisions-navigating-the-ai-and-machine-learning-landscape-i5pRVBsiRVlNPDaSTKX6",
 				image: "img/news1.png",
-				content: "The digital economy operates at an unprecedented rate which forces businesses to transform their operational systems and supply chain management and customer relations approaches. The competitive landscape demands that Enterprise Resource Planning (ERP) systems evolve to incorporate artificial intelligence (AI) and machine learning (ML) and predictive analytics features for businesses to stay competitive. Surya Narayana Chakka wrote Smart ERP Solutions for Digital Commerce: AI and ML Strategies for Business Transformation to study the essential connection between business operations and technological advancements. The book delivers a current analysis of AI and ML applications for ERP system transformation while providing leaders with operational frameworks to link digital innovation to business transformation. Through his more than twenty years of SAP consulting experience Chakka explains complex technical concepts into operational strategies which connect corporate goals to actual business performance."
+				content: "The growing need for AI solutions that integrate both ethical principles and practical implementation methods becomes increasingly important in our automated and algorithmically driven world. Mohamed Abdul Kadar Mohamed Jabarullah bridges the gap between needs and action through his book From Data to Decisions: Navigating the AI and Machine Learning Landscape which delivers crucial knowledge about developing AI systems with technological sophistication and human-centric design.Throughout his near twenty-year career in digital media and advertising technology and telecom and healthcare innovation Abdul Kadar gained multiple viewpoints about AI's most critical issues. Through engineering-based case studies combined with responsible innovation reflections the book shows readers a transparent path to intelligent machine adaptation in society. The book functions beyond technical instruction to present a strategic plan for developing extensive systems which prioritize ethics alongside privacy and resilience while showing that authentic progress requires value-based deployment methods."
 			},
 			{
-				title: "Bridging Business and Technology: The Transformative Journey of Surya Narayana Chakka",
-				link: "https://www.indiehackers.com/post/bridging-business-and-technology-the-transformative-journey-of-surya-narayana-chakka-H7lcvLBsNW0gHKkm9yTS",
+				title: "From Ad Tech to AI Ethics: Mohamed Abdul Kadar’s Vision for Responsible Innovation",
+				link: "https://techbullion.com/from-ad-tech-to-ai-ethics-mohamed-abdul-kadars-vision-for-responsible-innovation/",
 				image: "img/news2.png",
-				content: "In today’s rapidly changing tech landscape, enterprises often struggle to align evolving business needs with the complexity of digital transformation. The gap between ambition and implementation remains a persistent challenge. Legacy systems, fragmented data structures, rising customer expectations, and siloed business processes further deepen this divide. Many organizations find themselves stalled—unable to scale innovations or unify global operations due to integration bottlenecks, outdated infrastructures, or lack of specialized talent. At this crossroads stands Surya Narayana Chakka—an industry stalwart whose expertise in SAP solutions has not only bridged this divide but significantly reshaped how organizations navigate change with precision and purpose."
+				content: "As digital technologies become more powerful, a troubling gap persists: innovations often outpace our ability to apply them responsibly. From AI algorithms that overlook privacy to automation systems that ignore real-world complexity, too many tech solutions prioritize speed over impact, efficiency over ethics. This disconnect leaves businesses struggling to adopt tools that are both effective and trustworthy. Mohamed Abdul Kadar, a seasoned IT professional in New York’s Digital Media sector, offers a compelling alternative. With nearly two decades of experience, he has built a career on the principle that technology must serve people—not the other way around. His work bridges technical excellence with ethical integrity, turning complex digital systems into practical solutions that drive progress in advertising, healthcare, and beyond—while safeguarding user trust and societal good."
 			},
-			// {
-			// 	title: "Surya Narayana Chakka: Shaping Predictive Finance Through Responsible Innovation",
-			// 	link: "https://www.techtimes.com/articles/312297/20251016/rahul-modak-shaping-predictive-finance-through-responsible-innovation.htm",
-			// 	image: "img/news3.png",
-			// 	content: "The modern financial system operates through technology, which serves as its essential core for building trust, achieving operational efficiency, and ensuring system stability. The real challenge arises because billions of dollars move between countries and millions of people use digital platforms, yet technology deployment does not automatically result in tangible benefits."
-			// },
+			{
+				title: "Engineering Ethical Innovation: Mohamed Abdul Kadar's Role in Shaping the Future of Automation and Responsible AI",
+				link: "https://www.dnaindia.com/insights/report-engineering-ethical-innovation-mohamed-abdul-kadar-s-role-in-shaping-the-future-of-automation-and-responsible-ai-3183105",
+				image: "img/news3.png",
+				content: "The technological revolution that all industries are undergoing today necessitates the development of robust systems that are also ethical to be the hallmark. Mohamed Abdul Kadar is a senior technology executive in New York and leads various technical projects that range in scale to enterprise-level engineering to AI integration and digital advertising and healthcare innovation. Mohamed Abdul Kadar has demonstrated his capacity to lead significant technical initiatives that can resolve global challenges such as privacy concerns and ethical innovation and data security through his twenty-year professional career. In the work of Mohamed Abdul Kadar, one can see the use of complex technology infrastructures to integrate robust engineering and social responsibility to generate enduring benefits to the masses."
+			},
 
 		];
 
