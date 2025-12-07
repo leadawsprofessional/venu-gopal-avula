@@ -7,7 +7,7 @@ export default function Articles({ articles = [] }) {
     return (
         <div className={styles.articleContainer}>
             <Head>
-                <title>Mohamed Abdul Kadar</title>
+                <title>Venu Gopal Avula</title>
                 <meta name="author" content="Your Name" />
             </Head>
             <div className={styles.articleContent}>
@@ -64,10 +64,10 @@ export async function getServerSideProps() {
     try {
         const articles = [
             {
-                title: "MEDAI-GUARD: An Intelligent Software Engineering Framework for Real-time Patient Monitoring Systems",
-                link: "https://www.ijrar.org/papers/IJRAR19J6380.pdf",
+                title: "Revolutionizing enterprise resource planning: The integration of Artificial Intelligence and machine learning in SAP ecosystem transformation",
+                link: "https://wjarr.com/sites/default/files/WJARR-2019-0142.pdf",
                 year: "2019",
-                publisher: "IJRAR",
+                publisher: "WJARR",
                 image: "img/paper/1.png",
             },
             {
@@ -78,64 +78,68 @@ export async function getServerSideProps() {
                 image: "img/paper/2.png",
             },
             {
-                title: "Adaptive Neural Traffic Orchestration: AI-Driven Network Optimization for Dynamic Congestion Mitigation",
-                link: "https://www.ijrar.org/papers/IJRAR19D6943.pdf",
+                title: "Intelligent Data Processing at Scale: Leveraging SAP HANA In-Memory Computing with Embedded AI/ML for Real-Time Enterprise Decision Making",
+                link: "https://www.ijrar.org/papers/IJRAR19S1839.pdf",
                 year: "2020",
                 publisher: "IJRAR",
                 image: "img/paper/3.png",
             },
             {
-                title: "VITA: Conversational AI Health Assistants' Impact on Patient Engagement and Clinical Workflow Integration",
-                link: "https://wjarr.com/sites/default/files/WJARR-2021-0236.pdf",
-                year: "2021",
-                publisher: "WJARR",
+                title: "Efficient Feature Store Architectures for Real-time Machine Learning Model Deployment in High-Throughput Systems",
+                link: "https://www.ijaresm.com/uploaded_files/document_file/Rahul_ModakFfmP.pdf",
+                year: "2020",
+                publisher: "IJARESM",
                 image: "img/paper/4.png",
+
+
+
             },
             {
-                title: "Automated Code Review and Vulnerability Detection Using Graph Neural Networks: Enhancing DevSecOps Workflows",
-                link: "https://wjaets.com/sites/default/files/WJAETS-2022-0031.pdf",
-                year: "2022",
-                publisher: "WJAETS",
+                title: "Cloud-Native Analytics Integration: Enhancing Business Intelligence Through SAP Analytics Cloud and Enterprise Data Orchestration",
+                link: "https://www.ijaresm.com/uploaded_files/document_file/Venu_Gopal_Avula36Fu.pdf",
+                year: "2020",
+                publisher: "IJARESM",
                 image: "img/paper/5.png",
             },
             {
-                title: "Beyond Passive Viewing: Neurophysiological Responses to Interactive Immersive Advertisements in Digital Environments",
-                link: "https://gjeta.com/sites/default/files/GJETA-2022-0075.pdf",
-                year: "2022",
-                publisher: "GJETA",
+                title: "Predictive Intelligence in Retail Operations: AI-Powered Forecasting Models for Demand Planning, Customer Behavior Analysis, and Supply Chain Optimization",
+                link: "https://wjaets.com/sites/default/files/WJAETS-2021-0074.pdf",
+                year: "2021",
+                publisher: "WJAETS",
                 image: "img/paper/6.png",
             },
             {
-                title: "PredictNet: AI-Enabled Predictive Maintenance System for Telecommunications Infrastructure Reliability",
-                link: "https://wjarr.com/sites/default/files/WJARR-2022-0954.pdf",
+                
+                title: "Advanced predictive analytics in enterprise systems: Machine learning models for business forecasting and strategic decision support",
+                link: "https://wjaets.com/sites/default/files/WJAETS-2022-0078.pdf",
                 year: "2022",
-                publisher: "WJARR",
+                publisher: "WJAETS",
                 image: "img/paper/7.png",
             },
             {
-                title: "Integrating Large Language Models into Agile Software Development: A 2023 Perspective on Productivity and Code Quality",
-                link: "https://welltestingjournal.com/index.php/WT/article/view/198",
+                title: "Embedded artificial intelligence capabilities in SAP HANA: Exploring native machine learning functions for enterprise data science applications",
+                link: "https://gjeta.com/sites/default/files/GJETA-2023-0033.pdf",
                 year: "2023",
-                publisher: "Well Testing Journal",
+                publisher: "GJETA",
                 image: "img/paper/8.png",
             },
             {
-                title: "TrustChain: Blockchain-Based Verification Framework for Transparent Advertisement Attribution and Consumer Trust",
-                link: "https://wjaets.com/sites/default/files/WJAETS-2023-0093.pdf",
+                title: "Advancing Enterprise Intelligence: Integrating AI-Driven Predictive Analytics within SAP HANA for Real-Time Business Decision Optimization",
+                link: "https://welltestingjournal.com/index.php/WT/article/view/197",
                 year: "2023",
-                publisher: "WJAETS",
+                publisher: "Well Testing Journal",
                 image: "img/paper/9.png",
             },
             {
-                title: "Harnessing Generative Models for Synthetic Medical Data: Balancing Innovation with Ethical and Regulatory Compliance",
-                link: "https://welltestingjournal.com/index.php/WT/article/view/199",
+                title: "Leveraging the convergence of SAP HANA's advanced data management capabilities and generative AI's predictive analytics for next-generation enterprise intelligence",
+                link: "https://wjaets.com/sites/default/files/WJAETS-2024-0216.pdf",
                 year: "2024",
-                publisher: "Well Testing Journal",
+                publisher: "WJAETS",
                 image: "img/paper/10.png",
             },
             {
-                title: "Next-Generation AI-Powered Content Personalization: Adaptive Generation Models for Real-Time User Engagement",
-                link: "https://welltestingjournal.com/index.php/WT/article/view/195",
+                title: "Architecting Intelligent Enterprise Applications: AI and ML Convergence within SAP S/4HANA Ecosystem",
+                link: "https://welltestingjournal.com/index.php/WT/article/view/196",
                 year: "2025",
                 publisher: "Well Testing Journal",
                 image: "img/paper/11.png",

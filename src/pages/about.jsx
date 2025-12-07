@@ -7,7 +7,7 @@ export default function About({ aboutData = [], highlights = [] }) {
 	return (
 		<div className={styles.aboutContainer}>
 			<Head>
-				<title>Mohamed Abdul Kadar</title>
+				<title>Venu Gopal Avula</title>
 				<meta name="author" content="Name" />
 			</Head>
 			<div className={styles.aboutContent}>
@@ -43,22 +43,27 @@ export default function About({ aboutData = [], highlights = [] }) {
 export async function getServerSideProps() {
 	try {
 		const aboutData = [
-  "I am Mohamed Abdul Kadar, a results-driven Technology Leader and Google Cloud Certified Professional Cloud Architect with 17+ years of experience delivering high-quality, scalable cloud-native solutions, robust API-driven microservices, and enterprise-grade test automation frameworks. I specialize in designing and implementing end-to-end CI/CD pipelines, automated testing strategies (web, mobile, API, and backend), and reliable deployment architectures using GCP, Kubernetes, Docker, Jenkins, and infrastructure-as-code. My strength lies in bridging engineering and quality — building resilient automation frameworks, enabling observability and testability, and mentoring teams to adopt best practices in software development, testing, and DevOps. I bring a pragmatic approach to quality engineering, a deep commitment to test coverage and performance, and a proven track record of improving release velocity while maintaining production stability."
-];
+	  "I am Venu Gopal Avula, a seasoned Data Architect with over 20 years of end-to-end IT experience spanning administration, analysis, design, development, testing, and implementation of enterprise business applications. I specialize in architecting scalable, secure, and high-performance data platforms across industries including Telecom, Oil & Gas, Manufacturing, Healthcare, Finance, Insurance, Mining, and Entertainment. My core expertise lies in SAP BW/BI, HANA, BW4HANA, BO, and cloud data architectures on Azure and AWS, with a proven track record of delivering robust data warehousing, reporting, and analytics solutions that directly support business strategy and decision-making.",	
+	  "Throughout my career, I have led complex, full-lifecycle BI and data projects—from requirements gathering, process and data modeling, and system design, through build, testing, user training, go-live, and post-implementation support. I bring deep hands-on experience in HANA data modeling (Attribute, Analytic, and Calculation Views), InfoProviders, BW models, ETL design, and performance optimization, as well as migration of large-scale data warehouses from legacy platforms such as Teradata and Hadoop to modern cloud environments. I am particularly focused on building data foundations that enable predictive analytics, real-time reporting, and self-service BI at scale.",
+	  "In my roles as Senior SAP BI/BW HANA Lead Consultant and Big Data & AWS BI Analytics Architect, I have successfully driven cloud migration initiatives, integrated machine learning and AI-backed analytical workloads, and collaborated closely with business stakeholders, data scientists, and global delivery teams. I am adept at bridging the gap between technology and business, translating complex analytical requirements into practical, maintainable solutions that enhance transparency, governance, and data-driven culture across the organization.",
+	  "I hold certifications including AWS Certified Solutions Architect – Associate and Microsoft Azure Fundamentals (AZ-900), alongside formal training in predictive analytics and ARIS-based process modeling. I remain committed to continuous learning in cloud data platforms, modern BI, and advanced analytics, with a strong focus on delivering data architectures that are future-ready, trusted, and aligned with enterprise objectives."
+	];
+
 
 
 		const highlights = [
-  "Google Cloud Certified Professional Cloud Architect with 17+ years of experience in cloud engineering, automation, DevOps, and end-to-end software quality engineering.",
-  "Expert in designing and implementing scalable cloud-native solutions using GCP, Kubernetes, Docker, and microservices-based architectures.",
-  "Strong background in building robust automation frameworks for Web, Mobile, API, and E2E testing using Selenium, Appium, RestAssured, Karate, and Playwright.",
-  "Proficient in CI/CD pipeline design and automation using Jenkins, GitLab CI, GitHub Actions, Terraform, and Infrastructure-as-Code principles.",
-  "Proven ability to streamline release cycles by enhancing automation coverage, integrating shift-left testing, and improving test reliability and quality gates.",
-  "Hands-on experience with distributed systems, event-driven architecture, Kafka, Pub/Sub, Cloud Tasks, and asynchronous workflow orchestration.",
-  "Adept at implementing observability, logging, monitoring, and alerting using ELK Stack, Prometheus, Grafana, and Cloud Monitoring.",
-  "Experienced in Agile delivery, cross-functional team leadership, code reviews, and mentoring teams in quality, automation, and DevOps best practices.",
-  "Strong problem-solving mindset with a deep focus on reliability, scalability, performance, and production readiness of enterprise applications.",
-  "Recognized for driving engineering excellence, improving build stability, reducing defects, and enabling high-velocity, high-confidence deployments."
+  "20+ years of extensive IT experience specializing in SAP BW, BW/4HANA, HANA Modeling, Enterprise Data Warehousing, and Business Intelligence solutions.",
+  "Expert in architecting large-scale data platforms, analytics ecosystems, and cloud-integrated BI landscapes across AWS, Azure, and on-premise environments.",
+  "Strong background in SAP BW/4HANA, HANA native modeling, Calculation Views, ETL design, SLT replication, BODS, and enterprise reporting with SAP BO.",
+  "Proven track record in executing full lifecycle SAP BI implementations—from blueprinting and data modeling to testing, deployment, and post-production support.",
+  "Experienced in migrating legacy platforms such as Teradata, Oracle, and Hadoop ecosystems into modern cloud and HANA-based data architectures.",
+  "Skilled in cross-functional leadership, collaborating closely with business stakeholders, data scientists, and global delivery teams to enable data-driven decision-making.",
+  "Highly proficient in performance optimization, data governance, complex InfoProvider modeling, and building scalable, future-proof analytical foundations.",
+  "Hands-on expertise in cloud data engineering, including AWS data services, Azure fundamentals, and integration of Big Data components such as Hadoop and Spark.",
+  "Strong command of ETL orchestration, process chains, workflow automation, and enterprise-level data consolidation strategies.",
+  "Recognized for delivering high-quality BI solutions that improve reporting efficiency, enhance data visibility, and support enterprise digital transformation initiatives."
 ];
+
 
 
 

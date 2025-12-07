@@ -30,7 +30,7 @@ export default function Home({ user }) {
                             <ul className={styles.linksList}>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.linkedin.com/in/mohamedabdulkadar/"
+                                        href="https://www.linkedin.com/in/venu-avula/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -39,7 +39,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://www.researchgate.net/profile/Mohamed-Abdul-Kadar-Mohamed-Jabarullah?ev=hdr_xprf"
+                                        href=""
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -50,7 +50,7 @@ export default function Home({ user }) {
                                 </li>
                                 <li className={styles.linkItem}>
                                     <a
-                                        href="https://scholar.google.com/citations?hl=en&user=GWgCO9gAAAAJ&authuser=9&scilu=&scisig=ACUpqDcAAAAAaEVFOnSavwhK2T0VjIJC5mT8_BA&gmla=AH8HC4wkrpNjveoAY5p-VdLtj9DA-vVhyvYeIB2nhKw-3B5WxWcreSIsjQDcvJ7hnLfOFALAIHj-_yYOz-XHYlGzFh_nLnLs8O4eDcw&sciund=6366508824389086822&gmla=AH8HC4yiTW0jdbMbvpGvdZolUVTRxMvNitfqGecmXtK3KM4gEod_jwyKKXuMoNz9aDkEb1DW7gCQenvBjw4nOZUgR8yk0y1pkG9xRY40puo&sciund=17620689195893747889&gmla=AH8HC4y1yCu2sS03tORD3zObROWIopicqfMxWXJKNTBau99IbIbiSIzOmqfg-1GIpqLustQ74VKiVQBpuM61-Z6xLAuu5CnADYTigv15yvw&sciund=4130726072484617652&gmla=AH8HC4z8eNL_XdilQvQurLDGtmH59KDHiUZ8p-pdCH5h6e0UzMZRGuIEKAPcezwKzdP4Rq3Xck4KNtYaWCejz8MY-5ohB_Lktp9HOjXld2M&sciund=5655965417567264097"
+                                        href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=8&hl=en&user=IOY5aG0AAAAJ&authuser=8&gmla=AH8HC4wweTT16vb8tpUtcRreHadYf9rim6WXIJcQGJJI9pkw1_k6QuWa6O0PpkaJz4BvuL_AkSjP7T62pVhhLwyP-_ndgCcoejRfyn4FmnY&sciund=6674946815658114893"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -98,10 +98,10 @@ export default function Home({ user }) {
 
 export async function getServerSideProps() {
     const user = {
-        name: "Mohamed Abdul Kadar",
-        title: "Senior Cloud & Automation Architect | GCP-Certified | DevOps, Microservices & Test Engineering Leader",
+        name: "Venu Gopal Avula",
+        title: "Senior Data Architect & SAP BW/4HANA Specialist | Enterprise BI & Cloud Analytics Leader",
         profileImage: "/img/Pic.jpg",
-        about: `"I am Mohamed Abdul Kadar, a results-driven Technology Leader and Google Cloud Certified Professional Cloud Architect with 17+ years of experience delivering high-quality, scalable cloud-native solutions, robust API-driven microservices, and enterprise-grade test automation frameworks. I specialize in designing and implementing end-to-end CI/CD pipelines, automated testing strategies (web, mobile, API, and backend), and reliable deployment architectures using GCP, Kubernetes, Docker, Jenkins, and infrastructure-as-code. My strength lies in bridging engineering and quality — building resilient automation frameworks, enabling observability and testability, and mentoring teams to adopt best practices in software development, testing, and DevOps. I bring a pragmatic approach to quality engineering, a deep commitment to test coverage and performance, and a proven track record of improving release velocity while maintaining production stability."`,
+        about: `"I am Venu Gopal Avula, a seasoned Data Architect with over 20 years of end-to-end IT experience spanning administration, analysis, design, development, testing, and implementation of enterprise business applications. I specialize in architecting scalable, secure, and high-performance data platforms across industries including Telecom, Oil & Gas, Manufacturing, Healthcare, Finance, Insurance, Mining, and Entertainment. My core expertise lies in SAP BW/BI, HANA, BW4HANA, BO, and cloud data architectures on Azure and AWS, with a proven track record of delivering robust data warehousing, reporting, and analytics solutions that directly support business strategy and decision-making. Throughout my career, I have led complex, full-lifecycle BI and data projects—from requirements gathering, process and data modeling, and system design, through build, testing, user training, go-live, and post-implementation support. I bring deep hands-on experience in HANA data modeling (Attribute, Analytic, and Calculation Views), InfoProviders, BW models, ETL design, and performance optimization, as well as migration of large-scale data warehouses from legacy platforms such as Teradata and Hadoop to modern cloud environments. I am particularly focused on building data foundations that enable predictive analytics, real-time reporting, and self-service BI at scale. In my roles as Senior SAP BI/BW HANA Lead Consultant and Big Data & AWS BI Analytics Architect, I have successfully driven cloud migration initiatives, integrated machine learning and AI-backed analytical workloads, and collaborated closely with business stakeholders, data scientists, and global delivery teams. I am adept at bridging the gap between technology and business, translating complex analytical requirements into practical, maintainable solutions that enhance transparency, governance, and data-driven culture across the organization. I hold certifications including AWS Certified Solutions Architect – Associate and Microsoft Azure Fundamentals (AZ-900), alongside formal training in predictive analytics and ARIS-based process modeling. I remain committed to continuous learning in cloud data platforms, modern BI, and advanced analytics, with a strong focus on delivering data architectures that are future-ready, trusted, and aligned with enterprise objectives."`,
     };
 
     return {

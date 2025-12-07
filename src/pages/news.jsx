@@ -6,7 +6,7 @@ export default function News({ articles = [] }) {
 	return (
 		<div className={styles.articleContainer}>
 			<Head>
-				<title>Mohamed Abdul Kadar</title>
+				<title>Venu Gopal Avula</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.articleContent}>
@@ -48,22 +48,22 @@ export async function getServerSideProps() {
 	try {
 		const articles = [
 			{
-				title: "Mohamed Abdul Kadar Releases His Thought-Inducing Publication From Data to Decisions – Navigating the AI and Machine Learning Landscape",
-				link: "https://www.indiehackers.com/post/mohamed-abdul-kadar-releases-his-thought-inducing-publication-from-data-to-decisions-navigating-the-ai-and-machine-learning-landscape-i5pRVBsiRVlNPDaSTKX6",
+				title: "Venu Gopal Avula: The Future of Data-Driven Enterprise Intelligent ERP Analytics",
+				link: "https://www.dnaindia.com/insights/report-venu-gopal-avula-the-future-of-data-driven-enterprise-intelligent-erp-analytics-3183633/amp",
 				image: "img/news1.png",
-				content: "The growing need for AI solutions that integrate both ethical principles and practical implementation methods becomes increasingly important in our automated and algorithmically driven world. Mohamed Abdul Kadar Mohamed Jabarullah bridges the gap between needs and action through his book From Data to Decisions: Navigating the AI and Machine Learning Landscape which delivers crucial knowledge about developing AI systems with technological sophistication and human-centric design.Throughout his near twenty-year career in digital media and advertising technology and telecom and healthcare innovation Abdul Kadar gained multiple viewpoints about AI's most critical issues. Through engineering-based case studies combined with responsible innovation reflections the book shows readers a transparent path to intelligent machine adaptation in society. The book functions beyond technical instruction to present a strategic plan for developing extensive systems which prioritize ethics alongside privacy and resilience while showing that authentic progress requires value-based deployment methods."
+				content: "In the modern data-driven economy, business organizations are faced with a lot of pressure to convert raw data into actionable intelligence. ERP systems have been in operation as the basic of business operations over many years, but they fail to provide real-time information or prediction. Integration of machine learning technology with enterprise resource planning systems enables businesses to transform their conventional systems into smart operating platforms that create business value. In his current study titled Intelligent ERP Analytics: Machine Learning Applications to Improved Business Intelligence, Venu Gopal Avula offers a more detailed system of combining ML with ERP systems. Avula is the lead in technical direction due to his two-decade experience in the direct industry and geographic experience coupled with the demonstration of how smart ERP analytics can help increase operational efficiency, business growth, and decision-making."
 			},
 			{
-				title: "From Ad Tech to AI Ethics: Mohamed Abdul Kadar’s Vision for Responsible Innovation",
-				link: "https://techbullion.com/from-ad-tech-to-ai-ethics-mohamed-abdul-kadars-vision-for-responsible-innovation/",
+				title: "From Andhra Pradesh to Cloud Architecture: Venu Gopal Avula’s Journey in Data Transformation",
+				link: "https://techbullion.com/from-andhra-pradesh-to-cloud-architecture-venu-gopal-avulas-journey-in-data-transformation/",
 				image: "img/news2.png",
-				content: "As digital technologies become more powerful, a troubling gap persists: innovations often outpace our ability to apply them responsibly. From AI algorithms that overlook privacy to automation systems that ignore real-world complexity, too many tech solutions prioritize speed over impact, efficiency over ethics. This disconnect leaves businesses struggling to adopt tools that are both effective and trustworthy. Mohamed Abdul Kadar, a seasoned IT professional in New York’s Digital Media sector, offers a compelling alternative. With nearly two decades of experience, he has built a career on the principle that technology must serve people—not the other way around. His work bridges technical excellence with ethical integrity, turning complex digital systems into practical solutions that drive progress in advertising, healthcare, and beyond—while safeguarding user trust and societal good."
+				content: "In an era defined by digital acceleration, organizations grapple with an overwhelming influx of data, often fragmented across legacy systems, cloud environments, and hybrid infrastructures. The challenge lies not just in storing or processing this data—but in transforming it into a strategic asset that informs real-time decisions, supports innovation, and drives competitive advantage. It is in solving these complexities that professionals like Venu Gopal Avula have become indispensable."
 			},
 			{
-				title: "Engineering Ethical Innovation: Mohamed Abdul Kadar's Role in Shaping the Future of Automation and Responsible AI",
-				link: "https://www.dnaindia.com/insights/report-engineering-ethical-innovation-mohamed-abdul-kadar-s-role-in-shaping-the-future-of-automation-and-responsible-ai-3183105",
+				title: "Shaping Intelligent Enterprise Systems: A Conversation with Venu Gopal Avula on the Future of ERP Analytics",
+				link: "https://www.indiehackers.com/post/shaping-intelligent-enterprise-systems-a-conversation-with-venu-gopal-avula-on-the-future-of-erp-analytics-3TR5Wa0Z66gtrrY6O36l",
 				image: "img/news3.png",
-				content: "The technological revolution that all industries are undergoing today necessitates the development of robust systems that are also ethical to be the hallmark. Mohamed Abdul Kadar is a senior technology executive in New York and leads various technical projects that range in scale to enterprise-level engineering to AI integration and digital advertising and healthcare innovation. Mohamed Abdul Kadar has demonstrated his capacity to lead significant technical initiatives that can resolve global challenges such as privacy concerns and ethical innovation and data security through his twenty-year professional career. In the work of Mohamed Abdul Kadar, one can see the use of complex technology infrastructures to integrate robust engineering and social responsibility to generate enduring benefits to the masses."
+				content: "Enterprises operate between innovation and information overload as part of the digital economic framework. Every business organization, regardless of size or industry, faces the same challenge—transforming massive amounts of raw data into actionable intelligence. Achieving this transformation demands both technical mastery and strategic foresight. Few professionals embody this balance as seamlessly as Venu Gopal Avula, a seasoned consultant and architect at Zillion Technologies, Virginia, USA."
 			},
 
 		];

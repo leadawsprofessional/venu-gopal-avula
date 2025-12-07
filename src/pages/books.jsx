@@ -7,7 +7,7 @@ export default function Books({ books = [] }) {
 	return (
 		<div className={styles.booksContainer}>
 			<Head>
-				<title>Mohamed Abdul Kadar</title>
+				<title>Venu Gopal Avula</title>
 				<meta name="author" content="Your Name" />
 			</Head>
 			<div className={styles.booksContent}>
@@ -54,8 +54,8 @@ export async function getServerSideProps() {
 	try {
 		const books = [
 			{
-				title: "From Data to Decisions: Navigating the AI and Machine Learning",
-				link: "https://www.amazon.com/dp/B0FKTCB9TS?ref=cm_sw_r_ffobk_cso_wa_mwn_dp_SE24G40ZJ1Y7CPAPFJPX",
+				title: "Intelligent ERP Analytics: Machine Learning Applications for Enhanced Business Intelligence",
+				link: "https://www.amazon.in/Intelligent-ERP-Analytics-Applications-Intelligence-ebook/dp/B0FSVHZT3S/ref=sr_1_1?crid=15ZZ3K22QTJ3&dib=eyJ2IjoiMSJ9.9REVCeQifmvr9Hol5d5PnQ.Pvc7z2U2WcRjR8NfqqrWIEz6EGqnv_FahxIdNvtxJKI&dib_tag=se&keywords=Venu+Gopal+Avula&qid=1764263572&sprefix=venu+gopal+avula%2Caps%2C245&sr=8-1",
 				image: "img/book.png",
 			},
 		];
